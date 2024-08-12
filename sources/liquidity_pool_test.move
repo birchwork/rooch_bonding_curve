@@ -1,10 +1,10 @@
-module rooch_bonding_curve::liquidity_pool_test {
+module bonding_curve_demo::liquidity_pool_test {
     use std::string;
     use std::signer;
     use std::string::String;
     use rooch_framework::coin;
     use moveos_std::object::ObjectID;
-    use rooch_bonding_curve::liquidity_pool;
+    use bonding_curve_demo::liquidity_pool;
     use rooch_framework::coin_store::{Self};
     use rooch_framework::account_coin_store;
 

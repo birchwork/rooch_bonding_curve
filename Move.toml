@@ -1,5 +1,5 @@
 [package]
-name = "rooch_bonding_curve"
+name = "bonding_curve_demo"
 version = "0.0.1"
 
 [dependencies]
@@ -8,7 +8,7 @@ MoveosStdlib = { git = "https://github.com/rooch-network/rooch.git", subdir = "f
 RoochFramework = { git = "https://github.com/rooch-network/rooch.git", subdir = "frameworks/rooch-framework", rev = "main" }
 
 [addresses]
-rooch_bonding_curve = "0x9f486eddc27217bf838b61cfdeeb2e454f7e53a56e2dea9b3f8ceb49090f8ba3"
+bonding_curve_demo = "0x4bc77f949a8aac72067c3d3c57fdfdc2b9a8d71f9bf3606ca151e94a58f09940"
 std = "0x1"
 moveos_std = "0x2"
 rooch_framework = "0x3"

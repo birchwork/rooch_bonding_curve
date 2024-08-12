@@ -1,4 +1,4 @@
-module rooch_bonding_curve::liquidity_pool {
+module bonding_curve_demo::liquidity_pool {
 
     use std::u256;
     use std::signer;
@@ -82,6 +82,7 @@ module rooch_bonding_curve::liquidity_pool {
         };
         let pool_obj = object::new_named_object(pool);
         let pool_id = object::id(&pool_obj);
+        object::to_shared(pool_obj);
         pool_id
     }
 
